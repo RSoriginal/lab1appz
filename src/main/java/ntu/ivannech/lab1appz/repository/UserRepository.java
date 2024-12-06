@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 public class UserRepository {
 
     public User getDefaultUser() {
-        return new User("Ivan", "Nechaiev");
+        return new User("name", "surname");
     }
 }

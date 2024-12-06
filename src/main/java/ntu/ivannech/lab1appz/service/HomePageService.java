@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class HomePageService {
 
-    public static final String GREETINGS_FORMAT = "hi. im just say bruh to you, %s %s,\nif you're interested in time and all that: %s";
+    public static final String GREETINGS_FORMAT = "hi. im just say bruh to you, %s %s,\nif you re interested in time and all that: %s";
     private UserRepository userRepository;
 
     public String getHelloString() {
